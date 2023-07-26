@@ -12,12 +12,15 @@ h1 {
     margin: 0;
 }
 
+:root {
+  --background1:  #245065;
+}
+
 p {
     font-weight: 300;
 }
 
 header {
-    position: fixed;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
     width: 100%;
     display: flex;
