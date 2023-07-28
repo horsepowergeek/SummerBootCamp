@@ -154,3 +154,13 @@ footer div {
         grid-row: 3;
     } 
 }
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.shrinkCarousel {
+ margin: 0 auto;
+  width: 250;
+  height: auto;
+  display: block;
+}
